@@ -53,7 +53,7 @@ const scissorsSound = new Audio("sounds/372246__mxve__scissors.WAV");
 const winSound = new Audio(
   "sounds/619035__mrrap4food__burst-of-a-short-clap.MP3"
 );
-const loseSound = new Audio("/sounds/178875__rocotilos__you-lose-evil.WAV");
+const loseSound = new Audio("sounds/178875__rocotilos__you-lose-evil.WAV");
 // click of button triggers player selection, computer selection and start of round
 const buttons = document.querySelectorAll("#buttonDiv");
 buttons.forEach((button) => {
