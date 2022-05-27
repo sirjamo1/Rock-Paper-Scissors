@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-
-    <h1 class="helloText">hello</h1>
+    <div id="mainContainer">
+      <div id="buttonDiv">
+        <input
+          name="rock"
+          type="image"
+          src="/images/rock.png"
+          width="75px"
+          id="rock"
+          class="buttons"
+        />
+        <input
+          name="paper"
+          type="image"
+          src="/images/paper.png"
+          width="75px"
+          id="paper"
+          class="buttons"
+        />
+        <input
+          name="scissors"
+          type="image"
+          src="/images/scissors.png"
+          width="75px"
+          id="scissors"
+          class="buttons"
+        />
+      </div>
+      <div id="scoreDiv">
+        <p>Player Score : 0 Computer Score : 0 Draw : 0</p>
+      </div>
+      <div id="winLoseRound"></div>
+      <div id="winLoseTotal"></div>
+      <div id="resetDiv"><button id="resetButton">Reset</button></div>
+    </div>
+    <audio
+      id="rockSound"
+      src="/sounds/424997__gregorquendel__rocks-effects-source-recordings-05.wav"
+    ></audio>
+    <audio id="paperSound" src=""></audio>
+    <audio id="scissorsSound" src=""></audio>
   </body>
 </html>

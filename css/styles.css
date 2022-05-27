@@ -1,4 +1,82 @@
-.helloText {
+* {
+  margin: 0;
+}
+html {
+background: url('/images/rock_paper_scissors_background2.jpg');
+
+  background-size: cover;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#mainContainer {
+  width: 500px;
+  height: 300px;
+  margin-top: 250px;
+  margin-bottom: 200px;
+  background: cornsilk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem rgb(173, 163, 123);
+}
+#buttonDiv {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+}
+.buttons {
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  transition: ease-in-out all 0.1s;
+  transform: scale(1);
+  border-radius: 20%;
+  border: red solid;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.buttons:active {
+  transform: scale(1.2);
+}
+
+#scoreDiv {
+  height: 30px;
+  margin-top: 20px;
+}
+#winLoseRound {
+  height: 30px;
+}
+#winLoseTotal {
+  height: 40px;
+  font-size: 20px;
   color: red;
-  background: blue;
+}
+#resetButton {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  color: red;
+  border: red 1px solid;
+  box-shadow: 0 0 .5rem #ffc600;
+
+}
+@media screen and (max-width: 360px) {
+  #buttonDiv {
+    gap: 20px;
+  }
+}
+@media screen and (max-height: 400px) {
+  #mainContainer {
+    margin-top: 30px;
+  }
 }
