@@ -2,10 +2,8 @@
   margin: 0;
 }
 html {
-background: url('/images/rock_paper_scissors_background2.jpg');
-
+  background: url("/images/rock_paper_scissors_background2.JPG");
   background-size: cover;
-
 }
 
 body {
@@ -67,8 +65,7 @@ body {
   background-color: aliceblue;
   color: red;
   border: red 1px solid;
-  box-shadow: 0 0 .5rem #ffc600;
-
+  box-shadow: 0 0 0.5rem #ffc600;
 }
 @media screen and (max-width: 360px) {
   #buttonDiv {
