@@ -2,7 +2,7 @@
   margin: 0;
 }
 html {
-  background: url("https://thumbs.dreamstime.com/z/kids-game-rock-paper-scissors-pattern-white-background-134992609.jpg");
+  background-image: url("/images/rpsBack.PNG");
   background-size: cover;
 }
 
