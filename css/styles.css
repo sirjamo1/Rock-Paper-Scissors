@@ -2,7 +2,7 @@
   margin: 0;
 }
 html {
-  background-image: url("/images/rpsBackground.PNG");
+  background-image: url("../images/rpsBackground.PNG");
   background-size: cover;
 }
 
