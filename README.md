@@ -1,6 +1,15 @@
 # Rock-Paper-Scissors<br/>
 
-HUGE UPDATE 27/05/2022<br/><br/>
+update 27/05/2022<br/><br/>
+
+<br />
+<br />
+
+<h4>Page Preview</h4>
+<br />
+
+![Alt Text](images/rockPaperScissorsScreenshot.png?raw=true "Rock Paper Scissors screenshot")
+<br />
 
 <ul>
 <li>Added clickable buttons with sound affects (from www.freesound.org) and images for buttons (from www.clipartmax.com) along with a background image (from www.wallpaperaccess.com)</li>
